@@ -1,0 +1,66 @@
+#basketdiv{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    select{
+        color: $main-color;
+        font-weight: bolder;
+        border-radius: 20px;
+    padding: 10px;
+        border: 3px solid $second-color;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: black;
+    }
+    input{
+        
+        color: $main-color;
+        font-weight: bolder;
+        border-radius: 20px;
+    padding: 10px;
+        border: 3px solid $second-color;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    button{
+        background-color: $second-color;
+        color: $main-color;
+        font-weight: bolder;
+        border-radius: 20px;
+    padding: 10px;
+        border: 3px solid $main-color;
+                    }
+                    button:hover{
+                        border: 3px solid $second-color;
+                        color: $second-color;
+                        font-weight: bolder;
+                   background-color: $main-color;
+                   transition: 0.5s;
+
+                    }
+    #abc{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .boxDiv{
+            width: 20%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        .myDiv{
+            width: 20%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        .sortbox{
+            width: 20%;
+            text-align: center;
+            font-weight: bolder;
+        }
+    }
+}

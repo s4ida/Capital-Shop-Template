@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: $main-color;
+    width: 100%;
+    .container{
+        width: 90%;
+        .nav{
+            .collapseDiv{
+                justify-content: flex-end;
+                ul{
+                    margin: auto;
+                    gap: 30px;
+                    li{
+                        a{
+                            font-weight: bolder;
+                            color: black;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+   
+}
+main{
+    #entrancesection{
+        background-image: url(/assets/img/h1_hero1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+        width: 100%;
+            .container{
+                padding: 30px;
+                width: 90%;
+                .row{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    padding: 30px;
+                    .entrancediv{
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        padding: 30px;  
+                        text-align: center;
+                        h2{
+                            color: $second-color;
+                            font-family: cursive;
+                           font-style: oblique;
+                        }
+                        h1{
+                            font-family: 'Times New Roman', Times, serif;
+                            font-weight: bolder;
+                        }
+                        p{
+                            color: gray;
+                            width: 100%;
+                        }
+                        button{
+                            background-color:black;
+                         color: $main-color;
+                            font-weight: bolder;
+                            padding: 15px;
+                            border: 1px solid black;
+                        }
+                        button:hover{
+                            background-color: $main-color;
+                            border: 1px solid black;
+                            font-weight: bolder;
+                            color: black;
+                            transition: 0.5s;
+                        }
+                    }
+                }  
+        }
+    }
+    #cards{
+        width: 100%;
+        .container{
+            width: 90%;
+            .row{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 30px;
+                .carddiv{
+                    text-align: center;
+                    margin-bottom: 30px;
+                    img{
+                        width: 100%;
+                        margin-bottom: -30px;
+                    }
+                    .pdiv{
+                        margin-top: -18px;
+                        background-color: black;
+                        opacity: 0.4;
+                    }
+                    p{
+                        
+                        font-family: 'Times New Roman', Times, serif;
+                        font-weight: bolder;
+                        color: $main-color;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+    #trends{
+        width: 100%;
+        .container{
+            width: 90%;
+            .row{
+                .titlediv{
+                    display: flex;
+                    justify-content: space-between;
+            margin-bottom: 30px;
+                }
+                .uldiv{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-bottom: 30px;
+                    ul{
+                        list-style: none;
+                        display: flex;
+                        gap: 20px;
+                        font-weight: bolder;
+                    }
+                    ul{
+                        li:hover{
+                            color: $second-color;
+                            transition: 0.5s;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .trenddiv{
+                    margin-top: 30px;
+                    img{
+                        width: 100%;
+                    }
+                    text-align: center;
+                    p{
+                        font-weight: bolder;
+                        margin-top: 20px;
+                    }
+                }
+            }
+            
+        }
+    }
+    #customer{
+        width: 100%;
+        background-color: #F3EAD8;
+        padding: 30px;
+        .container{
+            width: 90%;
+            .row{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+             
+                .textdiv{
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 30px;
+                    padding: 30px;
+                    h1{
+                        margin-top: 30px;
+                        font-weight: bolder;
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                    p{
+                        font-weight: bolder;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 20px;
+                        margin-top: 30px;
+                    }
+                }
+                .imagediv{
+                    display: flex;
+                    width: 100%;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        font-weight: bolder;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 20px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    #apisection{
+        width: 100%;
+        .container{
+            width: 90%;
+            .apidiv{
+                margin-top: 30px;
+                select{
+                    color: $main-color;
+                    font-weight: bolder;
+                    border-radius: 20px;
+                padding: 10px;
+                    border: 3px solid $second-color;
+                    margin-top: 10px;
+                    margin-bottom: 30px;
+                    color: black;
+                }
+                input{
+                    
+                    color: $main-color;
+                    font-weight: bolder;
+                    border-radius: 20px;
+                padding: 10px;
+                    border: 3px solid $second-color;
+                    margin-top: 10px;
+                    margin-bottom: 30px;
+                }
+                button{
+                    background-color: $second-color;
+                    color: $main-color;
+                    font-weight: bolder;
+                    border-radius: 20px;
+                padding: 10px;
+                    border: 3px solid $main-color;
+                                }
+                                button:hover{
+                                    border: 3px solid $second-color;
+                                    color: $second-color;
+                                    font-weight: bolder;
+                               background-color: $main-color;
+                               transition: 0.5s;
+
+                                }
+                #abc{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 30px;
+                    .boxDiv{
+                        width: 20%;
+                        text-align: center;
+                        font-weight: bolder;
+                    }
+                    .myDiv{
+                        width: 20%;
+                        text-align: center;
+                        font-weight: bolder;
+                    }
+                    .sortbox{
+                        width: 20%;
+                        text-align: center;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    }
+    #formsection{
+        width: 100%;
+        .container{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 30px;
+            width: 90%;
+            .titlediv{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-top: 30px;
+                p{
+                    color: gray;
+                }
+          
+        }
+   #myform{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    .inputdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    
+        width: 50%;
+        input{
+            width: 100%;
+            border-radius: 0px;
+            padding: 15px;
+        }
+       
+    }
+    .btndiv{
+  
+        width: 50%;
+        .textarea{
+            width: 100%;
+            border-radius: 0px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        button{
+            background-color: $second-color;
+            color: $main-color;
+            font-weight: bolder;
+            border-radius: 20px;
+        padding: 10px;
+            border: 3px solid $main-color;
+                        }
+                        button:hover{
+                            border: 3px solid $second-color;
+                            color:  $second-color;
+                            font-weight: bolder;
+                       background-color: $main-color;
+                       transition: 0.5s;
+
+                        }
+    }
+   }
+    }
+    }
+}
+footer{
+
+    background-color: #171613;
+    .container{
+ 
+        .row{
+            .footdiv{
+                color: $main-color;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+   

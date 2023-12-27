@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+}
+header .container {
+  width: 90%;
+}
+header .container .nav .collapseDiv {
+  justify-content: flex-end;
+}
+header .container .nav .collapseDiv ul {
+  margin: auto;
+  gap: 30px;
+}
+header .container .nav .collapseDiv ul li a {
+  font-weight: bolder;
+  color: black;
+}
+
+main #entrancesection {
+  background-image: url(/assets/img/h1_hero1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  width: 100%;
+}
+main #entrancesection .container {
+  padding: 30px;
+  width: 90%;
+}
+main #entrancesection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #entrancesection .container .row .entrancediv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+}
+main #entrancesection .container .row .entrancediv h2 {
+  color: #FD211F;
+  font-family: cursive;
+  font-style: oblique;
+}
+main #entrancesection .container .row .entrancediv h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+main #entrancesection .container .row .entrancediv p {
+  color: gray;
+  width: 100%;
+}
+main #entrancesection .container .row .entrancediv button {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 15px;
+  border: 1px solid black;
+}
+main #entrancesection .container .row .entrancediv button:hover {
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bolder;
+  color: black;
+  transition: 0.5s;
+}
+main #cards {
+  width: 100%;
+}
+main #cards .container {
+  width: 90%;
+}
+main #cards .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #cards .container .row .carddiv {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main #cards .container .row .carddiv img {
+  width: 100%;
+  margin-bottom: -30px;
+}
+main #cards .container .row .carddiv .pdiv {
+  margin-top: -18px;
+  background-color: black;
+  opacity: 0.4;
+}
+main #cards .container .row .carddiv p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+}
+main #trends {
+  width: 100%;
+}
+main #trends .container {
+  width: 90%;
+}
+main #trends .container .row .titlediv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+main #trends .container .row .uldiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+main #trends .container .row .uldiv ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: bolder;
+}
+main #trends .container .row .uldiv ul li:hover {
+  color: #FD211F;
+  transition: 0.5s;
+  cursor: pointer;
+}
+main #trends .container .row .trenddiv {
+  margin-top: 30px;
+  text-align: center;
+}
+main #trends .container .row .trenddiv img {
+  width: 100%;
+}
+main #trends .container .row .trenddiv p {
+  font-weight: bolder;
+  margin-top: 20px;
+}
+main #customer {
+  width: 100%;
+  background-color: #F3EAD8;
+  padding: 30px;
+}
+main #customer .container {
+  width: 90%;
+}
+main #customer .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+main #customer .container .row .textdiv {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+main #customer .container .row .textdiv h1 {
+  margin-top: 30px;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+main #customer .container .row .textdiv p {
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 30px;
+}
+main #customer .container .row .imagediv {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+main #customer .container .row .imagediv p {
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 30px;
+}
+main #apisection {
+  width: 100%;
+}
+main #apisection .container {
+  width: 90%;
+}
+main #apisection .container .apidiv {
+  margin-top: 30px;
+}
+main #apisection .container .apidiv select {
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid #FD211F;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: black;
+}
+main #apisection .container .apidiv input {
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid #FD211F;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+main #apisection .container .apidiv button {
+  background-color: #FD211F;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid white;
+}
+main #apisection .container .apidiv button:hover {
+  border: 3px solid #FD211F;
+  color: #FD211F;
+  font-weight: bolder;
+  background-color: white;
+  transition: 0.5s;
+}
+main #apisection .container .apidiv #abc {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+main #apisection .container .apidiv #abc .boxDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+main #apisection .container .apidiv #abc .myDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+main #apisection .container .apidiv #abc .sortbox {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+main #formsection {
+  width: 100%;
+}
+main #formsection .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  width: 90%;
+}
+main #formsection .container .titlediv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+main #formsection .container .titlediv p {
+  color: gray;
+}
+main #formsection .container #myform {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+main #formsection .container #myform .inputdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+main #formsection .container #myform .inputdiv input {
+  width: 100%;
+  border-radius: 0px;
+  padding: 15px;
+}
+main #formsection .container #myform .btndiv {
+  width: 50%;
+}
+main #formsection .container #myform .btndiv .textarea {
+  width: 100%;
+  border-radius: 0px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+main #formsection .container #myform .btndiv button {
+  background-color: #FD211F;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid white;
+}
+main #formsection .container #myform .btndiv button:hover {
+  border: 3px solid #FD211F;
+  color: #FD211F;
+  font-weight: bolder;
+  background-color: white;
+  transition: 0.5s;
+}
+
+footer {
+  background-color: #171613;
+}
+footer .container .row .footdiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#basketdiv {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+#basketdiv select {
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid #FD211F;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: black;
+}
+#basketdiv input {
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid #FD211F;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#basketdiv button {
+  background-color: #FD211F;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid white;
+}
+#basketdiv button:hover {
+  border: 3px solid #FD211F;
+  color: #FD211F;
+  font-weight: bolder;
+  background-color: white;
+  transition: 0.5s;
+}
+#basketdiv #abc {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#basketdiv #abc .boxDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+#basketdiv #abc .myDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+#basketdiv #abc .sortbox {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
